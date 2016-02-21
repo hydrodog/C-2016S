@@ -27,7 +27,7 @@ int main() {
 	int max, min;
 	
 	stats(gr, n, mean, max, min);
-
+	cout << "mean=" << mean << " max=" << max << " min=" << min << "\n";
 }
 
 
