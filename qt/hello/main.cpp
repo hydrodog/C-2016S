@@ -22,6 +22,10 @@ int main(int argc, char *argv[]) {
     float y2 = int(3.6) * 3;
     float y3 = int(3.6 * 3);
 
+    cout << sizeof(int);
+
+
+    malloc(1000 * sizeof(char))
 
 
 
