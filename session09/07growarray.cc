@@ -11,6 +11,7 @@ private:
 		int* temp = data;
 		data = new int[len*2];
 		memcpy(data, temp, used*sizeof(int));
+		delete[]temp;
 	}
 public:
 	GrowArray() {
