@@ -1,0 +1,104 @@
+Person			Heart
+				heartbeat()
+
+class Person : public Heart { // A person IS_A heart
+private:
+  
+};
+
+class Person  {
+private:
+	Heart* heart;
+	
+};
+
+
+Heart h1;
+Person p1(&h1);
+
+class Heart {
+private:
+	int xyz;
+	
+};
+class Person  {
+private:
+	Heart heart;
+public:
+	Person() {
+		 heart.xyz = 992; // illegal
+	}
+};
+
+
+Person Car
+
+class Person {
+private:
+	Car c;
+};
+
+class Person {
+private:
+	Car* cars;
+
+};
+
+for a person with no car   cars = nullptr
+
+
+Person     ssn
+
+class Person {
+private:
+	int ssn;
+}
+
+Stock	Portfolio
+
+buy 1000 IBM
+sell 500 IBM
+buy 1000 IBM
+buy 1000 AAPL
+
+class Stock {
+private:
+  double price;
+  string sym;
+
+};
+
+class Position {
+private:
+  Stock* s;
+  int qty;
+public:
+
+}
+class Portfolio {
+private:
+  vector<Position> positions;
+public:
+  void buy(string sym, int qty) {
+    
+
+  }
+
+};
+
+map<string, Stock>  quotes;
+Stock s = quotes["IBM"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
